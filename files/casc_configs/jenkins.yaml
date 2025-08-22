@@ -1,0 +1,47 @@
+jenkins:
+  scmCheckoutRetryCount: 3
+  slaveAgentPort: -1
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  noUsageStatistics: true
+  labelString: "controller"
+  log:
+    recorders:
+      - loggers:
+          - level: "FINE"
+            name: "hudson.slaves"
+        name: "Agent Communication"
+      - loggers:
+          - level: "INFO"
+            name: "hudson.model.Run"
+        name: "Build Logs"
+      - loggers:
+          - level: "INFO"
+            name: "org.eclipse.jetty"
+        name: "HTTP Requests"
+      - loggers:
+          - level: "FINE"
+            name: "jenkins.model.Jenkins"
+        name: "Job Loading"
+      - loggers:
+          - level: "FINE"
+            name: "jenkins.InitReactorRunner"
+        name: "Plugin Loading"
+      - loggers:
+          - level: "FINE"
+            name: "hudson.model.Queue"
+        name: "Queue and Scheduling"
+      - loggers:
+          - level: "FINE"
+            name: "hudson.scm"
+        name: "SCM Logging"
+      - loggers:
+          - level: "FINE"
+            name: "hudson.security"
+        name: "Security Audits"
+      - loggers:
+          - level: "FINE"
+            name: "hudson.model.Item"
+        name: "System Configuration Changes"
