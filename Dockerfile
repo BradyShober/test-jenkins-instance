@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.516.1-lts-jdk21
+FROM jenkins/jenkins:2.516.1-lts-alpine
 
 ENV JAVA_OPTS="-Dorg.apache.commons.jelly.tags.fmt.timeZone=America/Chicago \
                # Relocate builds directory outside of JENKINS_HOME - https://www.jenkins.io/doc/book/managing/system-properties/#jenkins-model-jenkins-buildsdir
