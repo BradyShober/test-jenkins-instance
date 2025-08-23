@@ -1,4 +1,42 @@
 jenkins:
+  numExecutors: 0
+  authorizationStrategy: "loggedInUsersCanDoAnything"
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+  clouds:
+  - eC2Fleet:
+      addNodeOnlyIfRunning: false
+      alwaysReconnect: false
+      cloudStatusIntervalSec: 10
+      computerConnector:
+        sSHConnector:
+          credentialsId: "ssh"
+          launchTimeoutSeconds: 30
+          maxNumRetries: 10
+          port: 22
+          retryWaitTime: 15
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      disableTaskResubmit: false
+      executorScaler: "noScaler"
+      fleet: "Agent"
+      fsRoot: "/home/jenkins/jenkins"
+      idleMinutes: 0
+      initOnlineCheckIntervalSec: 15
+      initOnlineTimeoutSec: 180
+      labelString: "agent"
+      maxSize: 10
+      maxTotalUses: 1
+      minSize: 0
+      minSpareSize: 0
+      name: "Agent"
+      noDelayProvision: true
+      numExecutors: 1
+      privateIpUsed: true
+      region: "us-east-2"
+      restrictUsage: false
+      scaleExecutorsByWeight: false
   scmCheckoutRetryCount: 3
   slaveAgentPort: -1
   crumbIssuer:
