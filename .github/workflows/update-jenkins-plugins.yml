@@ -42,7 +42,7 @@ jobs:
           java -jar jenkins-plugin-cli.jar \
              --plugin-file files/plugins.txt \
              --available-updates \
-             --output txt > files/plugins.txt
+             --output txt
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
