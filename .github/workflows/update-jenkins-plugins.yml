@@ -21,7 +21,12 @@ jobs:
       - name: Get latest jenkins-plugin-manager version
         id: get_version
         run: |
-          LATEST_URL=$(curl -s https://api.github.com/repos/jenkinsci/plugin-installation-manager-tool/releases/latest | grep 'browser_download_url' | grep 'jenkins-plugin-manager-.*\.jar' | cut -d '"' -f 4)
+          LATEST_URL=$(curl -s https://api.github.com/repos/jenkinsci/plugin-installation-manager-tool/releases/latest \
+            | grep 'browser_download_url' \
+            | grep 'jenkins-plugin-manager-[0-9.]*\.jar"' \
+            | grep -v '\.sha256' \
+            | head -n 1 \
+            | cut -d '"' -f 4)
           echo "LATEST_URL=$LATEST_URL" >> $GITHUB_ENV
 
       - name: Download jenkins-plugin-manager jar
