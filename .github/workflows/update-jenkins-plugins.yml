@@ -18,9 +18,15 @@ jobs:
           java-version: 17
           distribution: temurin
 
-      - name: Download jenkins-plugin-cli
+      - name: Get latest jenkins-plugin-manager version
+        id: get_version
         run: |
-          curl -L -o jenkins-plugin-cli.jar https://github.com/jenkinsci/plugin-installation-manager-tool/releases/latest/download/jenkins-plugin-manager-2.12.9.jar
+          LATEST_URL=$(curl -s https://api.github.com/repos/jenkinsci/plugin-installation-manager-tool/releases/latest | grep 'browser_download_url' | grep 'jenkins-plugin-manager-.*\.jar' | cut -d '"' -f 4)
+          echo "LATEST_URL=$LATEST_URL" >> $GITHUB_ENV
+
+      - name: Download jenkins-plugin-manager jar
+        run: |
+          curl -L -o jenkins-plugin-cli.jar "$LATEST_URL"
 
       - name: Update plugins.txt
         run: |
