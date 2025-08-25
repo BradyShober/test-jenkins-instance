@@ -36,9 +36,9 @@ jobs:
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
-       - name: Force new deployment of ECS service
-         run: |
-           aws ecs update-service \
+      - name: Force new deployment of ECS service
+        run: |
+          aws ecs update-service \
             --cluster default \
             --service Jenkins \
             --force-new-deployment
