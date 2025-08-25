@@ -38,7 +38,7 @@ jobs:
           java -jar jenkins-plugin-cli.jar \
             --plugin-file files/plugins.txt \
             --available-updates \
-            --output files/plugins.txt
+            --output txt
 
       - name: Commit changes if any
         run: |
