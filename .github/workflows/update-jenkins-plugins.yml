@@ -41,6 +41,7 @@ jobs:
         run: |
           java -jar jenkins-plugin-cli.jar \
             --plugin-file files/plugins.txt \
+            --available-updates \
             --output txt
 
       - name: Create Pull Request
