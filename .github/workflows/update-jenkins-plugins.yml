@@ -1,0 +1,46 @@
+name: Update Jenkins Plugins
+
+on:
+  schedule:
+    - cron: '0 2 * * 1' # Every Monday at 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-plugins:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+
+      - name: Download jenkins-plugin-cli
+        run: |
+          curl -L -o jenkins-plugin-cli.jar https://github.com/jenkinsci/plugin-installation-manager-tool/releases/latest/download/jenkins-plugin-manager-2.12.9.jar
+
+      - name: Update plugins.txt
+        run: |
+          java -jar jenkins-plugin-cli.jar \
+            --plugin-file files/plugins.txt \
+            --available-updates \
+            --output files/plugins.txt
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-jenkins-plugins || git checkout update-jenkins-plugins
+          git add files/plugins.txt
+          git diff --cached --quiet || git commit -m "Update Jenkins plugins"
+          git push -u origin update-jenkins-plugins || echo "No changes to push"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update-jenkins-plugins
+          title: "Update Jenkins Plugins"
+          body: |
+            This PR updates Jenkins plugins in files/plugins.txt to their latest versions.
