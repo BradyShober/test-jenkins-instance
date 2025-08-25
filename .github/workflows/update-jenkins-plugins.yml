@@ -42,8 +42,7 @@ jobs:
           java -jar jenkins-plugin-cli.jar \
              --plugin-file files/plugins.txt \
              --available-updates \
-             --output txt \
-             | grep -E '^[a-zA-Z0-9_-]+:[0-9]+' > files/plugins.txt
+             --output txt > files/plugins.txt
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
