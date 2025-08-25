@@ -42,7 +42,13 @@ jobs:
           java -jar jenkins-plugin-cli.jar \
              --plugin-file files/plugins.txt \
              --available-updates \
-             --output txt
+             --output txt > updated-plugins.txt
+          if [ -s updated-plugins.txt ]; then
+             mv updated-plugins.txt files/plugins.txt
+             echo "plugins.txt updated with new plugin versions."
+          else
+             echo "No plugin updates available; plugins.txt left unchanged."
+          fi
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
