@@ -83,3 +83,7 @@ jenkins:
           - level: "FINE"
             name: "hudson.model.Item"
         name: "System Configuration Changes"
+      - loggers:
+          - level: "FINE"
+            name: "com.amazon.jenkins.ec2fleet"
+        name: "EC2 Fleet"
