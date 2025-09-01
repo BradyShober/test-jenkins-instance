@@ -3,7 +3,7 @@ analysis-model-api:13.8.0-902.v26f80296f743
 ant:518.v8d8dc7945eca_
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
-apache-httpcomponents-client-5-api:5.5-157.vb_43ef2f6845e
+apache-httpcomponents-client-5-api:5.5-166.v870a_96374f91
 artifactory:4.0.8
 asm-api:9.8-163.vb_2a_96d3f9c3c
 atlassian-bitbucket-server-integration:4.2.0
@@ -90,8 +90,8 @@ docker-workflow:621.va_73f881d9232
 dotnet-sdk:1.4.0
 dtkit-api:3.0.3
 durable-task:595.ve87b_f1318d67
-ec2-fleet:4.2.0.513.v46b_5d5cd156c
-ec2:2014.v1407740474a_1
+ec2-fleet:4.2.1.515.v100267825939
+ec2:2018.vc13c882e22db_
 echarts-api:6.0.0-1146.v5c8f3b_8f0573
 eddsa-api:0.3.0.1-19.vc432d923e5ee
 email-ext:1925.v1598902b_58dd
@@ -105,9 +105,9 @@ generic-webhook-trigger:2.4.1
 git-client:6.3.2
 git:5.7.0
 github-api:1.321-488.v9b_c0da_9533f8
-github-branch-source:1834.v857721ea_74c6
+github-branch-source:1844.v4a_9883d49126
 github:1.44.0
-gradle:2.15
+gradle:2.16.1149.v711b_998b_0532
 gson-api:2.13.1-153.vb_3d0c48a_a_b_4a_
 handy-uri-templates-2-api:2.1.8-36.v85e4cb_234a_13
 htmlpublisher:427
@@ -123,7 +123,7 @@ javax-mail-api:1.6.2-11
 jaxb:2.3.9-133.vb_ec76a_73f706
 jenkins-design-language:1.27.21
 jersey2-api:2.47-165.ve7809a_3e87e0
-jira:3.18
+jira:3.19
 jjwt-api:0.11.5-120.v0268cf544b_89
 job-dsl:1.93
 jobcacher:732.ve164e3059a_a_a_
@@ -140,9 +140,9 @@ matrix-project:856.v4c352b_3a_b_23e
 maven-plugin:3.27
 mercurial:1323.ve69d2a_db_8a_b_d
 metrics:4.2.33-484.v2fcd689980d1
-mina-sshd-api-common:2.15.0-161.vb_200831a_c15b_
-mina-sshd-api-core:2.15.0-161.vb_200831a_c15b_
-mina-sshd-api-scp:2.15.0-161.vb_200831a_c15b_
+mina-sshd-api-common:2.16.0-167.va_269f38cc024
+mina-sshd-api-core:2.16.0-167.va_269f38cc024
+mina-sshd-api-scp:2.16.0-167.va_269f38cc024
 msbuild:1.37
 mstest:1.0.5
 node-iterator-api:72.vc90e81737df1
