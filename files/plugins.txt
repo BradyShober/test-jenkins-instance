@@ -70,7 +70,7 @@ build-name-setter:2.5.1
 build-timeout:1.38
 caffeine-api:3.2.2-178.v353b_8428ed56
 checks-api:373.vfe7645102093
-cloudbees-bitbucket-branch-source:937.0.2
+cloudbees-bitbucket-branch-source:937.0.3
 cloudbees-folder:6.1040.v8a_e6330a_54e3
 command-launcher:123.v37cfdc92ef67
 commons-collections4-api:4.5.0-8.va_d5448ef9011
