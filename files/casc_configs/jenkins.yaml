@@ -7,6 +7,7 @@ jenkins:
       enableCaptcha: false
   clouds:
   - eC2Fleet:
+      awsCredentialsId: "aws"
       addNodeOnlyIfRunning: false
       alwaysReconnect: false
       cloudStatusIntervalSec: 10
