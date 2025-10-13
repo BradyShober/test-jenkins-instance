@@ -39,8 +39,6 @@ aws-java-sdk2-cloudformation:2.33.4-62.vc1a_8df64b_4c9
 aws-java-sdk2-core:2.33.4-62.vc1a_8df64b_4c9
 aws-java-sdk2-ec2:2.33.4-62.vc1a_8df64b_4c9
 aws-java-sdk2-s3:2.33.4-62.vc1a_8df64b_4c9
-aws-secrets-manager-credentials-provider:1.214.va_0a_d8268d068
-aws-secrets-manager-secret-source:1.72.v61781b_35c542
 bitbucket:282.v85a_7e442f57b_
 blueocean-autofavorite:1.2.5
 blueocean-bitbucket-pipeline:1.27.21
