@@ -42,7 +42,7 @@ jobs:
           java -jar jenkins-plugin-cli.jar \
              --plugin-file files/plugins.txt \
              --available-updates \
-             --jenkins-version 2.516 \
+             --jenkins-version 2.528 \
              --output txt > updated-plugins.txt
           if [ -s updated-plugins.txt ]; then
              mv updated-plugins.txt files/plugins.txt
