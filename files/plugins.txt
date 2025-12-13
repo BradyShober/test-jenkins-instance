@@ -5,6 +5,7 @@ antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
 apache-httpcomponents-client-5-api:5.5-170.v023de017ccd7
 artifactory:4.0.8
+artifact-manager-s3:962.v15f7000205fa_
 asm-api:9.9-185.va_6c6b_3348b_c3
 atlassian-bitbucket-server-integration:5.0.0
 authentication-tokens:1.144.v5ff4a_5ec5c33
@@ -109,7 +110,7 @@ gradle:2.16.1149.v711b_998b_0532
 gson-api:2.13.2-173.va_a_092315913c
 handy-uri-templates-2-api:2.1.8-38.vcea_5d521d5f3
 htmlpublisher:427
-http_request:1.23
+http_request:1.20
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
 jackson2-api:2.20.1-423.v13951f6b_6532
