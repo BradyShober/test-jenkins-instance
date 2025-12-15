@@ -110,7 +110,7 @@ gradle:2.16.1149.v711b_998b_0532
 gson-api:2.13.2-173.va_a_092315913c
 handy-uri-templates-2-api:2.1.8-38.vcea_5d521d5f3
 htmlpublisher:427
-http_request:1.21
+http_request:1.22
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
 jackson2-api:2.20.1-423.v13951f6b_6532
