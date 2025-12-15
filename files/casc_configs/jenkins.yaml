@@ -1,5 +1,5 @@
 jenkins:
-  numExecutors: 1
+  numExecutors: 0
   authorizationStrategy: "loggedInUsersCanDoAnything"
   securityRealm:
     local:
