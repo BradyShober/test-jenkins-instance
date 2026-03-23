@@ -7,7 +7,7 @@ apache-httpcomponents-client-5-api:5.6-191.vb_47e2b_41c698
 artifactory:4.0.8
 artifact-manager-s3:962.v15f7000205fa_
 asm-api:9.9.1-189.vb_5ef2964da_91
-atlassian-bitbucket-server-integration:5.0.1
+atlassian-bitbucket-server-integration:5.0.2
 authentication-tokens:1.144.v5ff4a_5ec5c33
 aws-credentials:254.v978a_5e206a_d7
 aws-global-configuration:152.ve13a_2a_c319a_9
@@ -80,7 +80,7 @@ config-file-provider:1006.vc7366c201f57
 configuration-as-code:2036.v0b_c2de701dcb_
 copyartifact:795.ve8e151429b_27
 credentials-binding:717.v951d49b_5f3a_a_
-credentials:1491.v6d6145e96e1c
+credentials:1495.v2cc3d2266b_75
 custom-tools-plugin:0.8
 data-tables-api:2.3.7-1534.v539d4edf109d
 display-url-api:2.217.va_6b_de84cc74b_
@@ -91,7 +91,7 @@ dtkit-api:3.0.3
 durable-task:664.v2b_e7a_dfff66c
 ec2-fleet:4.2.2.527.v38a_8758950a_0
 ec2:2045.v06da_da_a_46422
-echarts-api:6.0.0-1165.vd1283a_3e37d4
+echarts-api:6.0.0-1247.vf3e35a_c1813f
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
 email-ext:1933.v45cec755423f
 emailext-template:249.v81d6ea_f33f2e
@@ -132,7 +132,7 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20251224-185.v0cc18490c62c
 json-path-api:3.0.0-218.vcd4dd1355de2
 jsoup:1.22.1-76.v9cdb_2456c0e3
-junit:1402.va_87fd3d15dc3
+junit:1403.vd9d1413fd205
 mailer:525.v2458b_d8a_1a_71
 matrix-auth:3.2.9
 matrix-project:870.v9db_fcfc2f45b_
@@ -142,7 +142,7 @@ metrics:4.2.37-494.v06f9a_939d33a_
 mina-sshd-api-common:2.16.0-167.va_269f38cc024
 mina-sshd-api-core:2.16.0-167.va_269f38cc024
 mina-sshd-api-scp:2.16.0-167.va_269f38cc024
-msbuild:1.38
+msbuild:1.39
 mstest:1.0.5
 node-iterator-api:72.vc90e81737df1
 nodejs:1.6.6
@@ -168,7 +168,7 @@ pipeline-timeline:1.0.3
 pipeline-utility-steps:2.20.0
 plain-credentials:199.v9f8e1f741799
 plugin-util-api:6.1192.v30fe6e2837ff
-powershell:178.v4b_3a_9f214ea_2
+powershell:182.v905646d861a_7
 prism-api:1.30.0-703.v116fb_3b_5b_b_a_a_
 pubsub-light:1.19
 resource-disposer:0.25
