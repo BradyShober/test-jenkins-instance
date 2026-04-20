@@ -40,9 +40,6 @@ jenkins:
       scaleExecutorsByWeight: false
   scmCheckoutRetryCount: 3
   slaveAgentPort: -1
-  crumbIssuer:
-    standard:
-      excludeClientIPFromCrumb: false
   disableRememberMe: false
   noUsageStatistics: true
   labelString: "controller"
