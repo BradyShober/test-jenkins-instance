@@ -3,7 +3,7 @@ analysis-model-api:14.2.0-964.v3eb_80540a_92f
 ant:520.vd082ecfb_16a_9
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
-apache-httpcomponents-client-5-api:5.6-193.vf028a_770a_fa_c
+apache-httpcomponents-client-5-api:5.6.1-195.v65ffe15189a_d
 artifactory:4.0.8
 artifact-manager-s3:973.v6a_51253e896b_
 asm-api:9.9.1-189.vb_5ef2964da_91
@@ -89,7 +89,7 @@ docker-workflow:634.vedc7242b_eda_7
 dotnet-sdk:1.4.0
 dtkit-api:3.0.3
 durable-task:664.v2b_e7a_dfff66c
-ec2-fleet:4.2.2.527.v38a_8758950a_0
+ec2-fleet:4.2.3.539.v8fedff2a_81c3
 ec2:2049.v127f0f109c29
 echarts-api:6.0.0-1273.v36fc9fe89332
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
@@ -107,7 +107,7 @@ github-api:1.330-492.v3941a_032db_2a_
 github-branch-source:1967.vdea_d580c1a_b_a_
 github:1.46.0
 gradle:2.19.1244.v1f9866817fec
-gson-api:2.13.2-198.v45e4a_55d9b_a_a_
+gson-api:2.14.0-201.v8eefe5515533
 handy-uri-templates-2-api:2.1.8-38.vcea_5d521d5f3
 htmlpublisher:427
 http_request:1.25
@@ -123,7 +123,7 @@ jaxb:2.3.9-143.v5979df3304e6
 jenkins-design-language:1.27.25
 jersey2-api:2.48-180.ve47b_264f849b_
 jira:3.21
-jjwt-api:0.11.5-120.v0268cf544b_89
+jjwt-api:0.13.0-141.vd58b_a_9592b_6c
 job-dsl:3654.vdf58f53e2d15
 jobcacher:826.v5e8436d03083
 joda-time-api:2.14.1-187.vdf2def02b_8a_1
@@ -131,7 +131,7 @@ jquery3-api:3.7.1-682.vfa_cdce169929
 jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20251224-185.v0cc18490c62c
 json-path-api:3.0.0-218.vcd4dd1355de2
-jsoup:1.22.1-76.v9cdb_2456c0e3
+jsoup:1.22.2-95.vc5d00f1eb_42d
 junit:1403.vd9d1413fd205
 mailer:534.v1b_36f5864073
 matrix-auth:3.2.9
@@ -153,7 +153,7 @@ parameterized-trigger:890.vc240a_a_e1217f
 pipeline-aws:1.45
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:837.vb_2654da_2a_fa_b_
+pipeline-graph-view:867.vece2ec789435
 pipeline-groovy-lib:797.v90ea_a_9b_e45a_0
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
@@ -169,7 +169,7 @@ pipeline-utility-steps:2.20.0
 plain-credentials:199.v9f8e1f741799
 plugin-util-api:7.1320.v684dd26fca_19
 powershell:185.v7a_026da_c54ee
-prism-api:1.30.0-720.v1eb_7496954b_3
+prism-api:1.30.0-723.v97277866cece
 pubsub-light:1.19
 resource-disposer:0.25
 role-strategy:848.va_a_ea_673cf0b_c
@@ -192,7 +192,7 @@ variant:70.va_d9f17f859e0
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1413.v2ff1a_5e720fa_
 workflow-basic-steps:1098.v808b_fd7f8cf4
-workflow-cps:4285.v8df38f05c3c5
+workflow-cps:4303.v8fa_2a_581f0a_6
 workflow-durable-task-step:1475.ved562f6ec8b_3
 workflow-job:1571.vb_423c255d6d9
 workflow-multibranch:821.vc3b_4ea_780798
