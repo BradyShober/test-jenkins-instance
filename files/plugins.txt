@@ -89,7 +89,7 @@ docker-workflow:634.vedc7242b_eda_7
 dotnet-sdk:1.4.0
 dtkit-api:3.0.3
 durable-task:671.v340ff7959010
-ec2-fleet:4.2.3.539.v8fedff2a_81c3
+ec2-fleet:4.2.3.540.va_6eedb_7b_c112
 ec2:2053.v86eb_364849fc
 echarts-api:6.0.0-1273.v36fc9fe89332
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
@@ -147,13 +147,13 @@ mstest:1.0.5
 node-iterator-api:72.vc90e81737df1
 nodejs:1.6.6
 okhttp-api:5.3.2-200.vedb_720a_cf1f8
-oss-symbols-api:461.v209fb_a_3e73da_
+oss-symbols-api:463.vff8a_5631a_09d
 pam-auth:1.12
 parameterized-trigger:893.va_383a_9b_a_4c11
 pipeline-aws:1.45
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:933.v8cd3789f1b_dd
+pipeline-graph-view:940.v790e7a_c51722
 pipeline-groovy-lib:798.v5cc688825312
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
@@ -178,7 +178,7 @@ saml:4.600.v069e2e79eeb_f
 scm-api:728.vc30dcf7a_0df5
 script-security:1402.v94c9ce464861
 snakeyaml-api:2.5-149.v72471e9c6371
-sonar:2.18.2
+sonar:2.18.3
 sse-gateway:1.29
 ssh-agent:396.vcc7d84e622ec
 ssh-credentials:372.va_250881b_08cd
