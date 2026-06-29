@@ -69,7 +69,7 @@ build-name-setter:2.5.1
 build-timeout:1.40
 caffeine-api:3.2.3-194.v31a_b_f7a_b_5a_81
 checks-api:415.vf022234a_931d
-cloudbees-bitbucket-branch-source:937.3.2
+cloudbees-bitbucket-branch-source:937.3.3
 cloudbees-folder:6.1100.ve9eed61d16c4
 command-launcher:134.v025a_5fcf9dea_
 commons-collections4-api:4.5.0-8.va_d5448ef9011
@@ -101,10 +101,10 @@ favorite:2.263.v941d21defef7
 font-awesome-api:7.2.0-983.v3f63c34eddb_9
 forensics-api:4.1875.vefb_f97cb_4987
 generic-webhook-trigger:2.4.2
-git-client:6.6.0
+git-client:6.6.1
 git:5.10.1
 github-api:1.330-492.v3941a_032db_2a_
-github-branch-source:1967.1969.v205fd594c821
+github-branch-source:1967.1970.vd86979736546
 github:1.47.0
 gradle:2.19.1244.v1f9866817fec
 gson-api:2.14.0-201.v8eefe5515533
@@ -147,13 +147,13 @@ mstest:1.0.5
 node-iterator-api:72.vc90e81737df1
 nodejs:1.6.6
 okhttp-api:5.3.2-200.vedb_720a_cf1f8
-oss-symbols-api:463.vff8a_5631a_09d
+oss-symbols-api:465.v25d9fdc88c26
 pam-auth:1.12
 parameterized-trigger:893.va_383a_9b_a_4c11
 pipeline-aws:1.45
 pipeline-build-step:584.vdb_a_2cc3a_d07a_
 pipeline-graph-analysis:254.v0f63a_a_447dca_
-pipeline-graph-view:943.v4c6b_7fda_f02d
+pipeline-graph-view:953.v23894ccf0079
 pipeline-groovy-lib:798.v5cc688825312
 pipeline-input-step:551.vdff487c5998c
 pipeline-milestone-step:152.v6e22b_8cfc66c
@@ -176,7 +176,7 @@ role-strategy:867.vd09254229f9b_
 run-condition:276.v97298f3a_cd51
 saml:4.600.v069e2e79eeb_f
 scm-api:728.vc30dcf7a_0df5
-script-security:1402.v94c9ce464861
+script-security:1402.1405.vc96e74964250
 snakeyaml-api:2.5-149.v72471e9c6371
 sonar:2.18.3
 sse-gateway:1.29
@@ -192,7 +192,7 @@ variant:70.va_d9f17f859e0
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1413.v2ff1a_5e720fa_
 workflow-basic-steps:1098.v808b_fd7f8cf4
-workflow-cps:4331.v9d06ed4658ff
+workflow-cps:4331.4333.v50a_b_076c5199
 workflow-durable-task-step:1479.v56e587f413a_7
 workflow-job:1571.1580.v18e46842c125
 workflow-multibranch:821.vc3b_4ea_780798
