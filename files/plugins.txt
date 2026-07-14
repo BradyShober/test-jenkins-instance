@@ -89,7 +89,7 @@ docker-workflow:634.vedc7242b_eda_7
 dotnet-sdk:1.4.0
 dtkit-api:3.0.3
 durable-task:686.v80ff80875b_82
-ec2-fleet:4.2.3.540.va_6eedb_7b_c112
+ec2-fleet:4.3.0.549.vf2a_da_a_d19b_5e
 ec2:2053.v86eb_364849fc
 echarts-api:6.0.0-1287.vfd24c22a_3d00
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
