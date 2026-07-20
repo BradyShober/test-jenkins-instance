@@ -7,7 +7,7 @@ apache-httpcomponents-client-5-api:5.6.2-199.vc3c04d033fcc
 artifactory:4.0.8
 artifact-manager-s3:973.v6a_51253e896b_
 asm-api:9.10.1-216.va_9256d3b_844b_
-atlassian-bitbucket-server-integration:6.0.0
+atlassian-bitbucket-server-integration:6.0.1
 authentication-tokens:1.144.v5ff4a_5ec5c33
 aws-credentials:262.v0efb_28f71f94
 aws-global-configuration:159.v882a_ecd03fe6
@@ -90,7 +90,7 @@ dotnet-sdk:1.4.0
 dtkit-api:3.0.3
 durable-task:686.v80ff80875b_82
 ec2-fleet:4.3.0.549.vf2a_da_a_d19b_5e
-ec2:2053.v86eb_364849fc
+ec2:2056.vca_ed3b_0a_f95f
 echarts-api:6.0.0-1287.vfd24c22a_3d00
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
 email-ext:2038.v7b_8817a_499d9
@@ -132,9 +132,9 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20260522-217.v0b_18b_8cd4672
 json-path-api:3.0.0-218.vcd4dd1355de2
 jsoup:1.22.2-95.vc5d00f1eb_42d
-junit:1413.v736fa_5b_61d80
+junit:1415.vcb_3245e24402
 mailer:534.v1b_36f5864073
-matrix-auth:3.2.10
+matrix-auth:3.3
 matrix-project:870.v9db_fcfc2f45b_
 maven-plugin:3.27
 mercurial:1323.ve69d2a_db_8a_b_d
@@ -180,7 +180,7 @@ script-security:1402.1405.vc96e74964250
 snakeyaml-api:2.5-149.v72471e9c6371
 sonar:2.18.3
 sse-gateway:1.29
-ssh-agent:396.vcc7d84e622ec
+ssh-agent:402.vc9cec9230d4b_
 ssh-credentials:372.va_250881b_08cd
 ssh-slaves:3.1097.v868116049892
 sshd:3.384.vc89b_5e138cf9
@@ -194,7 +194,7 @@ workflow-api:1413.v2ff1a_5e720fa_
 workflow-basic-steps:1098.v808b_fd7f8cf4
 workflow-cps:4350.vcc65d4958821
 workflow-durable-task-step:1479.v56e587f413a_7
-workflow-job:1581.ve4b_d0db_fcb_b_b_
+workflow-job:1590.v49101d088542
 workflow-multibranch:821.vc3b_4ea_780798
 workflow-scm-step:466.va_d69e602552b_
 workflow-step-api:724.v538c2362b_dfb_
