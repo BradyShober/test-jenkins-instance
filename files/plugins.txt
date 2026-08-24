@@ -69,7 +69,7 @@ build-name-setter:2.5.1
 build-timeout:1.41
 caffeine-api:3.2.4-208.v7e2da_a_7db_82b_
 checks-api:415.vf022234a_931d
-cloudbees-bitbucket-branch-source:937.3.8
+cloudbees-bitbucket-branch-source:937.3.9
 cloudbees-folder:6.1106.v3a_d9a_6d2465e
 command-launcher:134.v025a_5fcf9dea_
 commons-collections4-api:4.5.0-8.va_d5448ef9011
@@ -113,7 +113,7 @@ htmlpublisher:429
 http_request:1.25
 instance-identity:203.v15e81a_1b_7a_38
 ionicons-api:94.vcc3065403257
-jackson2-api:2.22.1-443.vc91f592333c4
+jackson2-api:2.22.2-445.vdc613f1d8012
 jakarta-activation-api:2.1.4-1
 jakarta-mail-api:2.1.5-1
 javadoc:354.vee1a_660b_4990
@@ -132,10 +132,10 @@ jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20260814-226.v20f9685d642c
 json-path-api:3.0.0-218.vcd4dd1355de2
 jsoup:1.23.1-103.v4fde9422cc6f
-junit:1418.v67a_81935603c
+junit:1424.vc64a_edde7777
 mailer:534.v1b_36f5864073
 matrix-auth:3.3
-matrix-project:905.vcc6831e8760a_
+matrix-project:917.v22eda_817646e
 maven-plugin:3.27
 mercurial:1323.ve69d2a_db_8a_b_d
 metrics:4.2.37-494.v06f9a_939d33a_
@@ -180,7 +180,7 @@ script-security:1412.v7737b_3405f86
 snakeyaml-api:2.5-149.v72471e9c6371
 sonar:2.18.3
 sse-gateway:1.29
-ssh-agent:418.v59904cc02b_71
+ssh-agent:424.vfc0ff25503b_4
 ssh-credentials:372.va_250881b_08cd
 ssh-slaves:3.1097.v868116049892
 sshd:3.384.vc89b_5e138cf9
@@ -192,7 +192,7 @@ variant:70.va_d9f17f859e0
 workflow-aggregator:608.v67378e9d3db_1
 workflow-api:1413.v2ff1a_5e720fa_
 workflow-basic-steps:1098.v808b_fd7f8cf4
-workflow-cps:4362.v9b_991749898e
+workflow-cps:4370.v49a_6937566b_6
 workflow-durable-task-step:1479.v56e587f413a_7
 workflow-job:1590.v49101d088542
 workflow-multibranch:841.vec5b_9e1806ec
