@@ -40,7 +40,7 @@ aws-java-sdk2-cloudformation:2.42.33-70.vd69c0763fa_60
 aws-java-sdk2-core:2.42.33-70.vd69c0763fa_60
 aws-java-sdk2-ec2:2.42.33-70.vd69c0763fa_60
 aws-java-sdk2-s3:2.42.33-70.vd69c0763fa_60
-bitbucket:307.va_9f30d0b_8f0d
+bitbucket:322.v882c6a_b_82c52
 blueocean-autofavorite:1.2.5
 blueocean-bitbucket-pipeline:1.27.26
 blueocean-commons:1.27.26
@@ -69,15 +69,15 @@ build-name-setter:2.5.1
 build-timeout:1.41
 caffeine-api:3.2.4-208.v7e2da_a_7db_82b_
 checks-api:415.vf022234a_931d
-cloudbees-bitbucket-branch-source:937.3.9
+cloudbees-bitbucket-branch-source:937.3.10
 cloudbees-folder:6.1106.v3a_d9a_6d2465e
 command-launcher:134.v025a_5fcf9dea_
 commons-collections4-api:4.5.0-8.va_d5448ef9011
-commons-compress-api:1.28.0-87.v48a_8104cb_b_25
+commons-compress-api:1.28.0-89.v706d5e672f99
 commons-lang3-api:3.20.0-109.ve43756e2d2b_4
 commons-text-api:1.15.0-218.va_61573470393
 config-file-provider:1013.v73c323e52b_1f
-configuration-as-code:2117.vc05a_0b_e6b_f4e
+configuration-as-code:2121.v86fe99d4b_b_a_b_
 copyartifact:795.ve8e151429b_27
 credentials-binding:728.v902a_273b_8947
 credentials:1511.v2e3cb_0008ef0
@@ -95,7 +95,7 @@ echarts-api:6.1.0-1306.vcee1648c16a_4
 eddsa-api:0.3.0.1-29.v67e9a_1c969b_b_
 email-ext:2038.v7b_8817a_499d9
 emailext-template:249.v81d6ea_f33f2e
-embeddable-build-status:637.vd878e68178f8
+embeddable-build-status:666.vcb_0de9eb_43d8
 extended-read-permission:92.v1b_f0c20b_75db_
 favorite:2.267.vb_90d08408081
 font-awesome-api:7.3.1-1013.v0835a_879ec6d
@@ -131,7 +131,7 @@ jquery3-api:3.7.1-687.v68d468e40b_30
 jsch:0.2.16-95.v3eecb_55fa_b_78
 json-api:20260814-226.v20f9685d642c
 json-path-api:3.0.0-218.vcd4dd1355de2
-jsoup:1.23.1-103.v4fde9422cc6f
+jsoup:1.23.2-106.v1161f282b_eb_f
 junit:1424.vc64a_edde7777
 mailer:534.v1b_36f5864073
 matrix-auth:3.3
@@ -180,7 +180,7 @@ script-security:1412.v7737b_3405f86
 snakeyaml-api:2.5-149.v72471e9c6371
 sonar:2.18.3
 sse-gateway:1.29
-ssh-agent:424.vfc0ff25503b_4
+ssh-agent:429.v685302b_feb_17
 ssh-credentials:372.va_250881b_08cd
 ssh-slaves:3.1097.v868116049892
 sshd:3.384.vc89b_5e138cf9
