@@ -1,5 +1,6 @@
 amazon-ecs:1.50
 analysis-model-api:14.18.0-1028.v9c938eeda_ef2
+ansicolor:542.v03d235fee02d
 ant:520.vd082ecfb_16a_9
 antisamy-markup-formatter:173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api:4.5.14-269.vfa_2321039a_83
