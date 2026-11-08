@@ -1,6 +1,8 @@
 jenkins:
   numExecutors: 0
-  authorizationStrategy: "loggedInUsersCanDoAnything"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
   securityRealm:
     local:
       allowsSignup: false
