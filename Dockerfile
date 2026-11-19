@@ -15,7 +15,8 @@ ENV JAVA_OPTS="-Dorg.apache.commons.jelly.tags.fmt.timeZone=America/Chicago \
                -Dhudson.slaves.NodeProvisioner.initialDelay=0 -Dhudson.slaves.NodeProvisioner.MARGIN=50 -Dhudson.slaves.NodeProvisioner.MARGIN0=0.85 \
                -Dhudson.model.DirectoryBrowserSupport.CSP= \
                -Djenkins.install.runSetupWizard=false ${JAVA_OPTS} \
-               -XX:InitialRAMPercentage=75 \
+-XX:-UseBASE64Intrinsics \               
+-XX:InitialRAMPercentage=75 \
                -XX:MaxRAMPercentage=75"
 ENV CASC_JENKINS_CONFIG /usr/share/jenkins/ref/casc_configs
 COPY files/casc_configs/ /usr/share/jenkins/ref/casc_configs/
